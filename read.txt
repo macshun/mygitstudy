@@ -1,56 +1,59 @@
-git config --global user.name " "ÉèÖÃ¸öÈËĞÅÏ¢
+git config --global user.name " "è®¾ç½®ä¸ªäººä¿¡æ¯
 git config --global user.email " "
-git config user.name²é¿´ĞÅÏ¢
+git config user.nameæŸ¥çœ‹ä¿¡æ¯
 git config user.email
-³õÊ¼»¯git init
-ls -aÏÔÊ¾ËùÓĞÎÄ¼ş
-touch 1.py´´½¨ÎÄ¼ş
-git status²é¿´ÄÚÈİ
-ÒÑÔİ´æ £¨changes to be committed£©:
-new file //±íÊ¾ĞÂ½¨ÎÄ¼ş
+åˆå§‹åŒ–git init
+ls -aæ˜¾ç¤ºæ‰€æœ‰æ–‡ä»¶
+touch 1.pyåˆ›å»ºæ–‡ä»¶
+git statusæŸ¥çœ‹å†…å®¹
+å·²æš‚å­˜ ï¼ˆchanges to be committedï¼‰:
+new file //è¡¨ç¤ºæ–°å»ºæ–‡ä»¶
 
-modified //±íÊ¾ĞŞ¸ÄÎÄ¼ş
+modified //è¡¨ç¤ºä¿®æ”¹æ–‡ä»¶
 
-deleted //±íÊ¾É¾³ıÎÄ¼ş
-ÒÑĞŞ¸Ä £¨changes not staged for commit):
-modified //±íÊ¾ĞŞ¸ÄÎÄ¼ş
+deleted //è¡¨ç¤ºåˆ é™¤æ–‡ä»¶
+å·²ä¿®æ”¹ ï¼ˆchanges not staged for commit):
+modified //è¡¨ç¤ºä¿®æ”¹æ–‡ä»¶
 
-deleted //±íÊ¾É¾³ıÎÄ¼ş
-Î´¸ú×Ù £¨untracked files£©
-git add 1.py Ìá½»ÖÁ»º´æ
-git add . Ìá½»ÎÄ¼ş¼ĞÖĞËùÓĞÎÄ¼ş
+deleted //è¡¨ç¤ºåˆ é™¤æ–‡ä»¶
+æœªè·Ÿè¸ª ï¼ˆuntracked filesï¼‰
+git add 1.py æäº¤è‡³ç¼“å­˜
+git add . æäº¤æ–‡ä»¶å¤¹ä¸­æ‰€æœ‰æ–‡ä»¶
 git commit -m "create 1"
 gti status
-git commit -m "change1"Ìá½»Õâ´ÎĞŞ¸Ä
-untracked Î´¾­¸ú×Ù staged ÉÏÑİ unstaged:modifiedºÍunmodified
-git status -sÒÔËõĞ´µÄ·½Ê½¹Û¿´×´Ì¬
-git logĞŞ¸Ä¼ÇÂ¼
-git log --onelineÒÔĞĞµÄĞÎÊ½²é¿´
-git diff²é¿´unstaged£¨Ã»ÓĞaddµÄÎÄ¼ş£©ºÍÉÏÒ»¸öcommitµÄ¶Ô±È
-git diff --cached²é¿´staged£¨¼´ÒÑ¾­addµ«Ã»ÓĞcommitµÄÎÄ¼ş£©commitºó´ú±í²Ù×÷½áÊø
-git diff HEAD²é¿´unstaged&staged
-git addÓÃÓÚÔİ´æ£¬git commit ÓÃÓÚĞŞ¸Äºó
-git commit --amend --no-editºÏ²¢change²¢²»¸Ä±ä×¢ÊÍ
-#»Øµ½addÖ®Ç°
-git reset test.py»Øµ½ÒÑ¾­addºóµÄÎÄ¼ş
-#»Øµ½commitÖ®Ç°
-git reset --hard HEADÖ¸Ïò×î½üµÄÒ»´Î¸ü¸ÄÌá½»
-git reset --hard HEAD^Ö¸Ïòµ¹ÊıµÚ¶ş´Î
-git reset --hard HEAD^^µ¹ÊıµÚÈı´Î...
-git reset --hard HEAD~2»Øµ½Ç°Á½¸ö
-git reset --hard 2a17846£¨µØÖ·£©
-git reflog²é¿´Î´À´µÄid
-git checkout id -- test.py¶Ôµ¥¸öÎÄ¼ş½øĞĞ°æ±¾¿ØÖÆ
-#·ÖÖ§branch
+git commit -m "change1"æäº¤è¿™æ¬¡ä¿®æ”¹
+untracked æœªç»è·Ÿè¸ª staged ä¸Šæ¼” unstaged:modifiedå’Œunmodified
+git status -sä»¥ç¼©å†™çš„æ–¹å¼è§‚çœ‹çŠ¶æ€
+git logä¿®æ”¹è®°å½•
+git log --onelineä»¥è¡Œçš„å½¢å¼æŸ¥çœ‹
+git diffæŸ¥çœ‹unstagedï¼ˆæ²¡æœ‰addçš„æ–‡ä»¶ï¼‰å’Œä¸Šä¸€ä¸ªcommitçš„å¯¹æ¯”
+git diff --cachedæŸ¥çœ‹stagedï¼ˆå³å·²ç»addä½†æ²¡æœ‰commitçš„æ–‡ä»¶ï¼‰commitåä»£è¡¨æ“ä½œç»“æŸ
+git diff HEADæŸ¥çœ‹unstaged&staged
+git addç”¨äºæš‚å­˜ï¼Œgit commit ç”¨äºä¿®æ”¹å
+git commit --amend --no-editåˆå¹¶changeå¹¶ä¸æ”¹å˜æ³¨é‡Š
+#å›åˆ°addä¹‹å‰
+git reset test.pyå›åˆ°å·²ç»addåçš„æ–‡ä»¶
+#å›åˆ°commitä¹‹å‰
+git reset --hard HEADæŒ‡å‘æœ€è¿‘çš„ä¸€æ¬¡æ›´æ”¹æäº¤
+git reset --hard HEAD^æŒ‡å‘å€’æ•°ç¬¬äºŒæ¬¡
+git reset --hard HEAD^^å€’æ•°ç¬¬ä¸‰æ¬¡...
+git reset --hard HEAD~2å›åˆ°å‰ä¸¤ä¸ª
+git reset --hard 2a17846ï¼ˆåœ°å€ï¼‰
+git reflogæŸ¥çœ‹æœªæ¥çš„id
+git checkout id -- test.pyå¯¹å•ä¸ªæ–‡ä»¶è¿›è¡Œç‰ˆæœ¬æ§åˆ¶
+#åˆ†æ”¯branch
 git log --oneline --graph
-git branch dev·Ö³öÒ»¸ödev·ÖÖ§
-masterÊÇÖ÷·ÖÖ§
-git branch ²é¿´·ÖÖ§
-git checkout dev½øÈë·ÖÖ§
-½øÈëmaster²ÅÄÜÉ¾³ıÆäËû·ÖÖ§
-git branch -d ·ÖÖ§Ãû³Æ É¾³ı·ÖÖ§
-git checkout -b dev Ö±½Ó´´½¨ºÍÇĞ»»µ½ĞÂ½¨µÄ·ÖÖ§
-git commit -am "changed in dev branch" add²¢Ìá½»
+git branch devåˆ†å‡ºä¸€ä¸ªdevåˆ†æ”¯
+masteræ˜¯ä¸»åˆ†æ”¯
+git branch æŸ¥çœ‹åˆ†æ”¯
+git checkout devè¿›å…¥åˆ†æ”¯
+è¿›å…¥masteræ‰èƒ½åˆ é™¤å…¶ä»–åˆ†æ”¯
+git branch -d åˆ†æ”¯åç§° åˆ é™¤åˆ†æ”¯
+git checkout -b dev ç›´æ¥åˆ›å»ºå’Œåˆ‡æ¢åˆ°æ–°å»ºçš„åˆ†æ”¯
+git commit -am "changed in dev branch" addå¹¶æäº¤
 git merge dev
 git merge --no-ff -m "keep merge info" dev
 git rebase dev
+git rebase --continue
+git stashæš‚å­˜
+git stash popå–å‡ºæš‚å­˜
